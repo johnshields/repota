@@ -26,7 +26,8 @@ alt="Repota Logo" width="200" height="200"/>
 </p>
 
 # Repota
-Repota is designed to be a service report application for automobile technicians for auto dealerships and rental companies. With Repota, technicians are free to create, review, edit and delete their reports for services they have performed on automobiles with the option to export them to PDFs.
+A CRUD web app for automobile technicians to manage service reports, reducing preparation time by 25%. Engineered a Go-based microservices backend with secure authentication, containerised in Docker, and deployed on AWS Elastic Beanstalk. Built a responsive Angular/TypeScript frontend hosted on AWS S3, implemented unit and BDD-style tests, and authored API documentation with supporting architecture diagrams.
+
 ***
 #### How to Run Locally -> <u>[click here](https://github.com/johnshields/AP-MD-FYP/wiki)</u>
 #### View the Application's <u>[Guide](https://github.com/johnshields/Repota-App/wiki/Repota-Guide)</u>
