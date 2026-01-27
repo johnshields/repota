@@ -1,9 +1,6 @@
 <h1 align="center">Applied Project and Minor Dissertation</h1>
 
-<a href="https://www.gmit.ie/" >
-<p align="center"><img src="https://i.ibb.co/f1ZQSkt/logo-gmit.png"
-alt="GMIT Logo" width="500" height="200"/>
-</p></a>
+[<p align="center"><img src="https://i.ibb.co/f1ZQSkt/logo-gmit.png" width="500" height="200" alt="GMIT Logo"></p>](https://www.gmit.ie/)
 
 ##### John Shields - G00348436
 ***
@@ -21,9 +18,7 @@ alt="GMIT Logo" width="500" height="200"/>
 
 ***
 
-<p align="center"><img src="https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png"
-alt="Repota Logo" width="200" height="200"/>
-</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png" width="200" height="200" alt="Repota Logo"></p>
 
 # Repota
 A CRUD web app for automobile technicians to manage service reports, reducing preparation time by 25%. Engineered a Go-based microservices backend with secure authentication, containerised in Docker, and deployed on AWS Elastic Beanstalk. Built a responsive Angular/TypeScript frontend hosted on AWS S3, implemented unit and BDD-style tests, and authored API documentation with supporting architecture diagrams.
