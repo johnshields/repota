@@ -18,12 +18,11 @@
 
 ***
 
-![Repota Logo](https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png)
+<img src="https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png" width="200" alt="Repota Logo">
 
 # Repota
 A CRUD web app for automobile technicians to manage service reports, reducing preparation time by 25%. Engineered a Go-based microservices backend with secure authentication, containerised in Docker, and deployed on AWS Elastic Beanstalk. Built a responsive Angular/TypeScript frontend hosted on AWS S3, implemented unit and BDD-style tests, and authored API documentation with supporting architecture diagrams.
 
-***
 #### How to Run Locally -> [click here](https://github.com/johnshields/repota/wiki)
 #### View the Application's [Guide](https://github.com/johnshields/repota/wiki/Repota-Guide)
 #### Check out the OpenAPI's [documentation](https://johnshields.github.io/horton.api.doc/)

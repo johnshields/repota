@@ -1,6 +1,6 @@
 # Horton --- Back-end
 
-![Horton Logo](https://raw.githubusercontent.com/johnshields/Repota-App/main/horton/favicon.ico)
+<img src="https://raw.githubusercontent.com/johnshields/Repota-App/main/horton/favicon.ico" width="200" alt="Horton Logo">
 
 Horton is the back-end to [www.repota-service.com](https://www.repota-service.com)
 
