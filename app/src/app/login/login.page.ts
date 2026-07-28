@@ -5,12 +5,8 @@ import {Router} from '@angular/router';
 import {AuthService} from "../services/auth-service/auth.service";
 
 /**
- * @author John Shields
  * @title Login Page
  * @desc Handles user logging in.
- *
- * Reference
- * https://stackoverflow.com/a/57177646
  */
 
 @Component({

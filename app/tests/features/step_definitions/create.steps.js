@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Create Steps
  * @desc Works with create.feature to allow a Mock User/Worker to create a Report.
  */

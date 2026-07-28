@@ -3,7 +3,6 @@ import {JobReportService} from '../services/api-service';
 import {ActivatedRoute, Router} from '@angular/router';
 
 /**
- * @author John Shields
  * @title Display Page
  * @desc Gets requested report by its ID to display the report by itself to the user.
  * Plus a delete report function for the delete button.

@@ -5,13 +5,8 @@ import * as jspdf from 'jspdf';
 import domtoimage from 'dom-to-image';
 
 /**
- * @author John Shields
  * @title Export Page
  * @desc Allows a user to export a report to a PDF.
- *
- * References
- * https://www.npmjs.com/package/dom-to-image
- * https://www.npmjs.com/package/jspdf
  */
 
 @Component({

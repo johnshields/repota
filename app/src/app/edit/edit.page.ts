@@ -4,7 +4,6 @@ import {NgForm} from '@angular/forms';
 import {ActivatedRoute, Router} from '@angular/router';
 
 /**
- * @author John Shields
  * @title Edit Page
  * @desc Gets requested report by its ID so the user can edit it.
  */

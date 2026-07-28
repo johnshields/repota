@@ -1,5 +1,4 @@
 /**
- * @author John Shields
  * @title JobReport Model - OpenAPI spec version: 1.0.0
  * @desc Model for creating and updating reports.
  */

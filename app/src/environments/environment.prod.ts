@@ -1,3 +1,4 @@
 export const environment = {
-    production: true
+    production: true,
+    apiBasePath: 'https://api.repota-service.com/api/v1'
 };

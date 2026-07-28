@@ -5,7 +5,6 @@ import {Router} from '@angular/router';
 import {AuthService} from "../services/auth-service/auth.service";
 
 /**
- * @author John Shields
  * @title Register Page
  * @desc Handles user registration.
  */

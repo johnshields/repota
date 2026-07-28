@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Delete Steps
  * @desc Works with delete.feature to allow a Mock User/Worker to Delete a Report.
  */

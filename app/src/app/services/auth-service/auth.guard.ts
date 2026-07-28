@@ -3,12 +3,9 @@ import {CanActivate, Router} from '@angular/router';
 import {AuthService} from './auth.service';
 
 /**
- * @author John Shields
  * @title Authentication Guard
  * @desc Adds Authentication to the app. This blocks all the report activity pages if a user is not logged in.
  * Only account, login & registration pages are available unauthenticated users.
- *
- * Reference https://www.jspanther.com/blog/auth-guard-the-routes-with-angular/
  */
 
 @Injectable()

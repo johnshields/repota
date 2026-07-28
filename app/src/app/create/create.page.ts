@@ -4,7 +4,6 @@ import {NgForm} from '@angular/forms';
 import {Router} from '@angular/router';
 
 /**
- * @author John Shields
  * @title Create Page
  * @desc Allows a User to create a new report using the JobReport Model.
  */

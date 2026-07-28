@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Register Steps
  * @desc Works with register.feature to allow a Mock User to register.
  */

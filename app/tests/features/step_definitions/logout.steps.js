@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Logout Steps
  * @desc Works with logout.feature to allow a Mock User to Logout.
  */

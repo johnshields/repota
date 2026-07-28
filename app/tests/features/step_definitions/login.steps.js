@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Login Steps
  * @desc Works with login.feature to allow a Mock User to Login.
  */

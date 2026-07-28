@@ -4,7 +4,6 @@ import {AccountService} from './services/api-service';
 import {AuthService} from "./services/auth-service/auth.service";
 
 /**
- * @author John Shields
  * @title App Component
  * @desc Main Component & Handles the Hamburger Menu.
  */

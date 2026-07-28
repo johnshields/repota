@@ -5,7 +5,6 @@ chai.use(chaiAsPromised);
 const {Given, When, Then} = require('cucumber');
 
 /**
- * @author John Shields
  * @title Edit Steps
  * @desc Works with edit.feature to allow a Mock User/Worker to edit a Report.
  */

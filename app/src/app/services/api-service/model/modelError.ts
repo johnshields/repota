@@ -1,5 +1,4 @@
 /**
- * @author John Shields
  * @title ModelError - OpenAPI spec version: 1.0.0
  */
 

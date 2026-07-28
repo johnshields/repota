@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 import {JobReportService} from '../services/api-service';
 
 /**
- * @author John Shields
  * @title History Page
  * @desc Gets all user's reports to display.
  */
