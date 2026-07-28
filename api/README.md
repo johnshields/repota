@@ -1,6 +1,6 @@
 # Horton --- Back-end
 
-<img src="https://raw.githubusercontent.com/johnshields/Repota-App/main/horton/favicon.ico" width="200" alt="Horton Logo">
+<img src="https://raw.githubusercontent.com/johnshields/Repota-App/main/api/favicon.ico" width="200" alt="Horton Logo">
 
 Horton is the back-end to [www.repota-service.com](https://www.repota-service.com)
 
@@ -11,9 +11,9 @@ To see how Horton was designed the OpenAPI documentation is located [here](https
 Ensure you have done the following:
 
 * Create the [Database](https://github.com/johnshields/Repota-App/blob/main/database/REPOTA_DB.sql) in a MySQL Console.
-* Edit the [config.ini](https://github.com/johnshields/Repota-App/blob/main/horton/go/config/config.ini) file with your MySQL details.
+* Edit the [config.ini](https://github.com/johnshields/Repota-App/blob/main/api/go/config/config.ini) file with your MySQL details.
 * Get an App ID and API key from [Back4App](https://www.back4app.com/database/back4app/car-make-model-dataset) to use their service. (First 10k requests are free).
-* Add in your App ID and API key into the [config.ini](https://github.com/johnshields/Repota-App/tree/main/horton/go/config/config.ini).
+* Add in your App ID and API key into the [config.ini](https://github.com/johnshields/Repota-App/tree/main/api/go/config/config.ini).
 
 To run the Horton, enter these commands in to the CLI:
 

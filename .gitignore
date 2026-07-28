@@ -19,3 +19,4 @@ GIT_REPO_ID
 
 # misc
 temp/
+.claude/
