@@ -1,7 +1,7 @@
 openapi: 3.0.2
 info:
   title: Horton-API
-  description: "Horton is the back-end to [www.repota-service.com](https://www.repota-service.com).\
+  description: "Horton is the backend to [www.repota-service.com](https://www.repota-service.com).\
     \ For more info refer to the API's documentation @ [horton.api.doc](https://johnshields.github.io/horton.api.doc/)"
   version: 1.0.0
 servers:

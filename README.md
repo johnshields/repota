@@ -24,19 +24,13 @@ A CRUD web app for automobile technicians to manage service reports, reducing pr
 
 # Repository Contents
 #### [Repota](https://github.com/johnshields/repota/tree/main/app/src/app)
-The source code of the Front-end.
+The source code of the Frontend.
 
 #### [Horton](https://github.com/johnshields/repota/tree/main/api)
-The source code of the Back-end.
-
-#### [API Specification](https://github.com/johnshields/repota/tree/main/api/spec)
-OpenAPI Specification of the Front-end and Back-end APIs.
-
-#### [Database](https://github.com/johnshields/repota/tree/main/database)
-The script for the Application's Database.
+The source code of the Backend, including the OpenAPI [specification](https://github.com/johnshields/repota/tree/main/api/spec) and [database](https://github.com/johnshields/repota/tree/main/api/db) scripts.
 
 #### [Dissertation](https://github.com/johnshields/repota/tree/main/dissertation)
 The Project's Dissertation.
 
-#### [Workings](https://github.com/johnshields/repota/tree/main/workings)
-All workings for the project.
+#### [Assets](https://github.com/johnshields/repota/tree/main/assets)
+Supporting assets for the project.

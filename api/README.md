@@ -1,8 +1,8 @@
-# Horton --- Back-end
+# Horton --- Backend
 
 <img src="https://raw.githubusercontent.com/johnshields/Repota-App/main/api/favicon.ico" width="200" alt="Horton Logo">
 
-Horton is the back-end for Repota.
+Horton is the backend for Repota.
 
 To see how Horton was designed the OpenAPI documentation is located [here](https://johnshields.github.io/horton.api.doc).
 
@@ -10,7 +10,7 @@ To see how Horton was designed the OpenAPI documentation is located [here](https
 
 Ensure you have done the following:
 
-* Create the [Database](https://github.com/johnshields/Repota-App/blob/main/database/REPOTA_DB.sql) in a MySQL Console.
+* Create the Database by running the numbered files in [db](https://github.com/johnshields/repota/tree/main/api/db) in order (`000_database.sql` through `004_session.sql`) in a MySQL Console. Optionally run [005_seed_data.sql](https://github.com/johnshields/repota/blob/main/api/db/005_seed_data.sql) afterwards for sample data.
 * Copy [config.ini.example](https://github.com/johnshields/Repota-App/blob/main/api/go/config/config.ini.example) to `config.ini` and edit it with your MySQL details. `config.ini` is gitignored, so your details stay local.
 * Get an App ID and API key from [Back4App](https://www.back4app.com/database/back4app/car-make-model-dataset) to use their service. (First 10k requests are free).
 * Add in your App ID and API key into `config.ini`.
@@ -59,7 +59,7 @@ The database consists of four tables.
 * customers
     - Customer information
 
-![database](https://github.com/johnshields/Repota-App/blob/main/database/repotadb_UML.png?raw=true)
+![database](https://github.com/johnshields/repota/blob/main/assets/imgs/repotadb_UML.png?raw=true)
 
 Everything is attached to the Workers (Users).
 

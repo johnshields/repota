@@ -1,4 +1,4 @@
-# Go - Back-end
+# Go - Backend
 ###### Go CRUD using MySQL
 https://www.golangprograms.com/example-of-golang-crud-using-mysql-from-scratch.html
 
@@ -30,7 +30,7 @@ https://www.sohamkamani.com/blog/2018/02/25/golang-password-authentication-and-s
 ###### Swagger: How to Create an API Documentation
 https://youtu.be/xggucT_xl5U
 
-# Angular & Ionic - Front-end
+# Angular & Ionic - Frontend
 ###### How To Export PDF In Angular
 https://www.c-sharpcorner.com/article/how-to-export-pdf-in-angular/
 
