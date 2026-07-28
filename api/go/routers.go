@@ -7,10 +7,6 @@
  * Handles GET, HEAD, POST, PUT, DELETE, OPTIONS, PATCH for requests and responses.
  * Handles CORS for cross origins to front-end.
  * Handles Endpoint Routes for functions for reports and users.
- *
- * References
- * https://stackoverflow.com/questions/29418478/go-gin-framework-cors
- * https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin
  */
 
 package openapi

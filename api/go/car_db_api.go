@@ -5,11 +5,6 @@
  * Car Database API
  * Connects to a 3rd Party API to retrieve Vehicle Data for users to select/search while creating and editing reports.
  * 3rd Party API - https://www.back4app.com/database/back4app/car-make-model-dataset
- *
- * References
- * https://ini.unknwon.io/docs/intro/getting_started
- * https://stackoverflow.com/a/51453196
- * https://www.alexedwards.net/blog/how-to-properly-parse-a-json-request-body
  */
 
 package openapi
@@ -17,6 +12,7 @@ package openapi
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/GIT_USER_ID/GIT_REPO_ID/go/config"
 	"github.com/gin-gonic/gin"
 	"gopkg.in/ini.v1"
 	"io"
@@ -30,7 +26,7 @@ import (
 // do the request and then send the data from Back4App to client.
 func GetCarApiData(c *gin.Context) {
 	// Load config file.
-	cfg, err := ini.Load("go/config/config.ini")
+	cfg, err := ini.Load(config.ConfigPath)
 	if err != nil {
 		log.Println("Failed to load config file for back4app.", err)
 		c.JSON(500, nil)

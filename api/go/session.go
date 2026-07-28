@@ -22,7 +22,7 @@ import (
 // Check if user has a cookie.
 // Used to abort requests made from the client if a user has no cookie (not logged in).
 func CheckForCookie(c *gin.Context) bool {
-	_, err := c.Cookie("session_id")
+	_, err := c.Cookie(config.SessionCookie)
 
 	// Return false if no cookie is found.
 	if err != nil {
@@ -40,7 +40,6 @@ func CheckForCookie(c *gin.Context) bool {
 // Returns either an error or a new Session object containing session token and expiry time.
 func createSessionId(username string) (error, models.Session) {
 	db := config.DbConn()
-	//db := mocks.MockDbConn() // mock db for testing
 
 	// Set up the session requirements.
 	token := generateSessionId() // Create a new session ID
@@ -84,7 +83,6 @@ func generateSessionId() string {
 // Function to remove existing session for an authenticated user so it can be replaced by a new one.
 func removeSession(userId int) bool {
 	db := config.DbConn()
-	//db := mocks.MockDbConn()
 
 	// Delete session for user.
 	res, err := db.Exec("DELETE FROM session WHERE user=?", userId)

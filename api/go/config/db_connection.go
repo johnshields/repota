@@ -4,9 +4,6 @@
  *
  * DB Connection
  * Logs into MySQL with the details in config.ini and uses the Repota Database.
- *
- * Reference
- * https://ini.unknwon.io/docs/intro/getting_started
  */
 
 package config
@@ -23,7 +20,7 @@ import (
 // DbConn use the config.ini file to log into MySQL for database access.
 func DbConn() (db *sql.DB) {
 	// Load config file.
-	cfg, err := ini.Load("go/config/config.ini")
+	cfg, err := ini.Load(ConfigPath)
 	if err != nil {
 		log.Println("Failed to load config file for database.", err)
 		os.Exit(1) // Failed to start service

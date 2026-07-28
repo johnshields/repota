@@ -9,6 +9,7 @@ plugins/
 *.exe~
 GIT_REPO_ID
 *.save
+api/go/config/config.ini
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/

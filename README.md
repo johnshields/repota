@@ -2,9 +2,6 @@
 
 [![GMIT Logo](https://i.ibb.co/f1ZQSkt/logo-gmit.png)](https://www.gmit.ie/)
 
-##### John Shields - G00348436
-***
-
 # Project Details
 | **Project Title** | Repota |
 | :------------- |:-------------|
