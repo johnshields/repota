@@ -1,5 +1,3 @@
-# git ignore file for repo
-
 # Repota Dependency directories
 node_modules/
 www/
@@ -18,3 +16,6 @@ GIT_REPO_ID
 
 # JetBrains IDEs
 .idea/
+
+# misc
+temp/

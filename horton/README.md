@@ -1,8 +1,6 @@
 # Horton --- Back-end
 
-<p align="center"><img src="https://raw.githubusercontent.com/johnshields/Repota-App/main/horton/favicon.ico"
-alt="Horton Logo" width="200" height="200"/>
-</p>
+![Horton Logo](https://raw.githubusercontent.com/johnshields/Repota-App/main/horton/favicon.ico)
 
 Horton is the back-end to [www.repota-service.com](https://www.repota-service.com)
 
@@ -123,5 +121,3 @@ if they do a MySQL DELETE QUERY is done to delete the report by its requested ID
 In `car_db_api.go` [Back4App](https://www.back4app.com/database/back4app/car-make-model-dataset)
 is used to load in 1000 Vehicle Makes and Models for users to create and update their reports with ease.
 
-***
-###### END OF README
