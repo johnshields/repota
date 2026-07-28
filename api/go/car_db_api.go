@@ -44,7 +44,7 @@ func GetCarApiData(c *gin.Context) {
 	req.Header.Set("X-Parse-Application-Id", fmt.Sprintf("%s", appID))
 	req.Header.Set("X-Parse-Master-Key", fmt.Sprintf("%s", apiKey))
 
-	// Check for user's cookie - if they do not have one abort the request.
+	// Check for user's cookie - abort the request if none is present.
 	// Status code handled by CheckForCookie.
 	if !CheckForCookie(c) {
 		log.Println("User is unauthorized")

@@ -28,7 +28,7 @@ func CreateReport(c *gin.Context) {
 		c.JSON(500, nil)
 	}
 
-	// Check for user's cookie - if they do not have one abort the request.
+	// Check for user's cookie - abort the request if none is present.
 	// Status code handled by CheckForCookie.
 	if !CheckForCookie(c) {
 		log.Println("User is unauthorized to create a report")
