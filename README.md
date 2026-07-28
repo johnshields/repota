@@ -13,8 +13,6 @@
 | **Module Supervisor**   | Dr. John Healy |
 | **Grade Achieved**      | 71% |
 
-***
-
 <img src="https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png" width="200" alt="Repota Logo">
 
 # Repota
@@ -23,10 +21,9 @@ A CRUD web app for automobile technicians to manage service reports, reducing pr
 #### How to Run Locally -> [click here](https://github.com/johnshields/repota/wiki)
 #### View the Application's [Guide](https://github.com/johnshields/repota/wiki/Repota-Guide)
 #### Check out the OpenAPI's [documentation](https://johnshields.github.io/horton.api.doc/)
-***
 
 # Repository Contents
-#### [Repota](https://github.com/johnshields/repota/tree/main/app/repotaApp/src/app)
+#### [Repota](https://github.com/johnshields/repota/tree/main/app/src/app)
 The source code of the Front-end.
 
 #### [Horton](https://github.com/johnshields/repota/tree/main/api)
