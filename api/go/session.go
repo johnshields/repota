@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * Session
  * Handles cookie checking, creating, generating and removing sessions.
  */
@@ -31,6 +28,15 @@ func CheckForCookie(c *gin.Context) bool {
 	}
 	// Else return true as one exists.
 	return true
+}
+
+// setSessionCookie sets the session cookie, using the hosting domain and secure flag when [app] env is "hosting".
+func setSessionCookie(c *gin.Context, token string, expiry int) {
+	if config.IsHosting() {
+		c.SetCookie(config.SessionCookie, token, expiry, config.CookiePath, config.HostingDomain, true, false)
+	} else {
+		c.SetCookie(config.SessionCookie, token, expiry, config.CookiePath, "", false, false)
+	}
 }
 
 // Function to create a session ID for authenticated user.

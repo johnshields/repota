@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * API Job Report
  * Handles all Job Reports activities - Create, Update, Delete & Getting Reports.
  */

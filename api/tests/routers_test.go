@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton API - Tests
- *
  * Routers Test
  * Test for Index (routes setup).
  */

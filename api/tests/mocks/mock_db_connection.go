@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - Mocks
- *
  * Mock DB Connection
  * Logs into Mock MySQL DB for unit tests.
  */

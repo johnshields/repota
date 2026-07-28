@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton API - Tests
- *
  * Account API Test
  * Tests for Register & Login
  * Registers a Mock User and Logins in the user to the Mock DB.

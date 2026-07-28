@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * Constants
  * Shared config path and cookie values used across the API.
  */

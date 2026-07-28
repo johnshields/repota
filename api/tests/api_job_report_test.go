@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton API - Tests
- *
  * Job Report API Test
  * Tests for CreateReport, GetReportById, GetReports, UpdateReport and DeleteReport
  * by using the mock user created in API Account Test.

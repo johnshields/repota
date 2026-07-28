@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * API Account
  * Handles User Registration, Login and Logout.
  */
@@ -57,11 +54,7 @@ func Login(c *gin.Context) {
 				c.JSON(500, models.Error{Code: 500, Messages: "Unable to create new session"})
 			} else {
 				// Set a cookie for logged in user, hosting or local domain depending on config.ini's [app] env.
-				if config.IsHosting() {
-					c.SetCookie(config.SessionCookie, session.Token, session.Expiry, config.CookiePath, config.HostingDomain, true, false)
-				} else {
-					c.SetCookie(config.SessionCookie, session.Token, session.Expiry, config.CookiePath, "", false, false)
-				}
+				setSessionCookie(c, session.Token, session.Expiry)
 				// User has been logged in and cookie has been set.
 				c.JSON(204, nil)
 			}
@@ -218,11 +211,7 @@ func Logout(c *gin.Context) {
 			c.JSON(500, models.Error{Code: 500, Messages: "Unable to logout User"})
 		} else {
 			// Set a cookie of one second for logged out user, hosting or local domain depending on config.ini's [app] env.
-			if config.IsHosting() {
-				c.SetCookie(config.SessionCookie, session.Token, 1, config.CookiePath, config.HostingDomain, true, false)
-			} else {
-				c.SetCookie(config.SessionCookie, session.Token, 1, config.CookiePath, "", false, false)
-			}
+			setSessionCookie(c, session.Token, 1)
 			c.JSON(204, models.Error{Code: 204, Messages: "User has been logged out"})
 			fmt.Println("User has been logged out.")
 		}

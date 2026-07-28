@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton API - Tests
- *
  * GetCarApiData Test
  */
 

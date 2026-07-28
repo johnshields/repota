@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * Car Database API
  * Connects to a 3rd Party API to retrieve Vehicle Data for users to select/search while creating and editing reports.
  * 3rd Party API - https://www.back4app.com/database/back4app/car-make-model-dataset
@@ -14,7 +11,6 @@ import (
 	"fmt"
 	"github.com/GIT_USER_ID/GIT_REPO_ID/go/config"
 	"github.com/gin-gonic/gin"
-	"gopkg.in/ini.v1"
 	"io"
 	"log"
 	"net/http"
@@ -26,7 +22,7 @@ import (
 // do the request and then send the data from Back4App to client.
 func GetCarApiData(c *gin.Context) {
 	// Load config file.
-	cfg, err := ini.Load(config.ConfigPath)
+	cfg, err := config.LoadConfig()
 	if err != nil {
 		log.Println("Failed to load config file for back4app.", err)
 		c.JSON(500, nil)

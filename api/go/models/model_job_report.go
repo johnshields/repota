@@ -1,7 +1,4 @@
 /*
- * John Shields
- * Horton - API version: 1.0.0
- *
  * Job Report
  * Model for getting reports details plus creating and updating reports.
  */
