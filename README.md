@@ -1,36 +1,57 @@
-# Applied Project and Minor Dissertation
+# Repota
 
-[![GMIT Logo](https://i.ibb.co/f1ZQSkt/logo-gmit.png)](https://www.gmit.ie/)
-
-# Project Details
-| **Project Title** | Repota |
-| :------------- |:-------------|
-| **Course**              | BSc (Hons) in Software Development |
-| **Module**              | Applied Project and Minor Dissertation |
-| **Institute**           | [Galway-Mayo Institute of Technology](https://www.gmit.ie/) |
-| **Student**             | [John Shields](https://github.com/johnshields) |
-| **Project Advisor**     | Andrew Beatty |
-| **Module Supervisor**   | Dr. John Healy |
-| **Grade Achieved**      | 71% |
+A CRUD web app for automobile technicians to manage service reports, reducing report preparation time by 25%.
 
 <img src="https://user-images.githubusercontent.com/26766163/117576734-e7049e80-b0de-11eb-9817-e735f94734d6.png" width="200" alt="Repota Logo">
 
-# Repota
-A CRUD web app for automobile technicians to manage service reports, reducing preparation time by 25%. Engineered a Go-based microservices backend with secure authentication, containerised in Docker, and deployed on AWS Elastic Beanstalk. Built a responsive Angular/TypeScript frontend hosted on AWS S3, implemented unit and BDD-style tests, and authored API documentation with supporting architecture diagrams.
+## Services
 
-#### How to Run Locally -> [click here](https://github.com/johnshields/repota/wiki)
-#### View the Application's [Guide](https://github.com/johnshields/repota/wiki/Repota-Guide)
-#### Check out the OpenAPI's [documentation](https://johnshields.github.io/horton.api.doc/)
+- **Repota**: Angular/Ionic frontend. Registration, login, and report create/edit/export/delete, talking to Horton over REST. [User guide](https://github.com/johnshields/repota/wiki/Repota-Guide).
+- **Horton**: Go/Gin REST API backend. Authentication, sessions, and report CRUD against MySQL, plus vehicle make/model lookups via the Back4App API. [OpenAPI docs](https://johnshields.github.io/horton.api.doc/).
 
-# Repository Contents
-#### [Repota](https://github.com/johnshields/repota/tree/main/app/src/app)
-The source code of the Frontend.
+## Database
 
-#### [Horton](https://github.com/johnshields/repota/tree/main/api)
-The source code of the Backend, including the OpenAPI [specification](https://github.com/johnshields/repota/tree/main/api/spec) and [database](https://github.com/johnshields/repota/tree/main/api/db) scripts.
+MySQL, four tables: `workers`, `jobreports`, `customers`, `session`.
 
-#### [Dissertation](https://github.com/johnshields/repota/tree/main/dissertation)
-The Project's Dissertation.
+![Database Schema](.assets/imgs/repotadb_UML.png)
 
-#### [Assets](https://github.com/johnshields/repota/tree/main/assets)
-Supporting assets for the project.
+## Running the Project
+
+### Stack
+
+- Frontend: Angular, Ionic, TypeScript. Unit tests with Karma/Jasmine, BDD tests with Cucumber/Selenium.
+- Backend: Go, Gin, MySQL. Unit tests with Go's testing package and testify.
+- OpenAPI 3.0 spec, Docker.
+
+### 1. Set up the database
+
+Start MySQL, then run the numbered scripts in [api/db](https://github.com/johnshields/repota/tree/main/api/db) in order.
+
+### 2. Configure the backend
+
+```bash
+cp api/go/config/config.ini.example api/go/config/config.ini
+```
+
+Add your MySQL and [Back4App](https://www.back4app.com/database/back4app/car-make-model-dataset) details.
+
+### 3. Start the backend
+
+```bash
+cd api
+go run main.go
+```
+
+### 4. Start the frontend
+
+```bash
+cd app
+npm install
+npm start
+```
+
+## License
+
+[MIT](LICENSE)
+
+*Originally built as a BSc (Hons) Software Development dissertation project at GMIT (71%). Full writeup in [dissertation/](https://github.com/johnshields/repota/tree/main/.assets/dissertation).*

@@ -59,7 +59,7 @@ The database consists of four tables.
 * customers
     - Customer information
 
-![database](https://github.com/johnshields/repota/blob/main/assets/imgs/repotadb_UML.png?raw=true)
+![database](../.assets/imgs/repotadb_UML.png)
 
 Everything is attached to the Workers (Users).
 
