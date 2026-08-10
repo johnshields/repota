@@ -54,4 +54,4 @@ npm start
 
 [MIT](LICENSE)
 
-##### Originally built as a BSc (Hons) Software Development dissertation project at GMIT (71%). [Full writeup](https://github.com/johnshields/repota/tree/main/.assets/dissertation).
+###### Originally built as a BSc (Hons) Software Development [dissertation](https://github.com/johnshields/repota/tree/main/.assets/dissertation) project at GMIT (71%).
