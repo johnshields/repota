@@ -6,8 +6,8 @@ A CRUD web app for automobile technicians to manage service reports, reducing re
 
 ## Services
 
-- **Repota**: Angular/Ionic frontend. Registration, login, and report create/edit/export/delete, talking to Horton over REST. [User guide](https://github.com/johnshields/repota/wiki/Repota-Guide).
-- **Horton**: Go/Gin REST API backend. Authentication, sessions, and report CRUD against MySQL, plus vehicle make/model lookups via the Back4App API. [OpenAPI docs](https://johnshields.github.io/horton.api.doc/).
+- **Repota**: Angular/Ionic frontend. Registration, login, and report create/edit/export/delete, talking to Horton over REST. See the [user guide](https://github.com/johnshields/repota/wiki/Repota-Guide) for a walkthrough.
+- **Horton**: Go/Gin REST API backend. Authentication, sessions, and report CRUD against MySQL, plus vehicle make/model lookups via the Back4App API. See the [API documentation](https://johnshields.github.io/horton.api.doc/) for endpoint details.
 
 ## Database
 
@@ -54,4 +54,4 @@ npm start
 
 [MIT](LICENSE)
 
-*Originally built as a BSc (Hons) Software Development dissertation project at GMIT (71%). Full writeup in [dissertation/](https://github.com/johnshields/repota/tree/main/.assets/dissertation).*
+##### Originally built as a BSc (Hons) Software Development dissertation project at GMIT (71%). [Full writeup](https://github.com/johnshields/repota/tree/main/.assets/dissertation).
